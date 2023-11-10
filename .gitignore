@@ -10,6 +10,8 @@ target/
 *.versionsBackup
 *.releaseBackup
 bin/
+*.war
+*.jar
 
 # common junk
 *.log
@@ -47,7 +49,6 @@ bin/
 *.orig
 
 # test generated content
-*/src/test/*/WEB-INF/lib/test*.jar
 .flattened-pom.xml
 
 # reports
